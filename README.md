@@ -1,16 +1,25 @@
-# ImagoProcess: Point Operations & Filters
+# ImagoProcess: Digital Image Processing Toolbox
 
-Aplikasi berbasis Web (Streamlit) untuk pemrosesan citra digital yang mencakup teknik manipulasi titik (point operations) dan penyaringan spasial (spatial filters).
+Aplikasi berbasis web untuk pengolahan citra digital guna memenuhi tugas Kuis Pertemuan 9. 
 
-**Oleh:** Ni Kadek Intan Amanda Putri (230030308)  
-**Status:** Pengerjaan Individu  
+**Identitas Mahasiswa:**
+- **Nama:** Intan Amanda
+- **Status:** Pengerjaan Individu (Independen)
 
-### Fitur Utama:
-- **Point Operations:** Penyesuaian Brightness dan Gamma Correction.
-- **Spatial Filters:** Blurring (Mean Filter) dan Sharpening menggunakan kernel khusus.
-- **Interaktif:** Dilengkapi dengan slider untuk mengatur parameter secara real-time.
+## 🚀 Fitur Aplikasi
+Aplikasi ini mengimplementasikan materi Pertemuan 9 yang mencakup:
+1. **Point Operations:** - Brightness Adjustment
+   - Gamma Correction (Non-linear Transformation)
+2. **Spatial Filtering:**
+   - Blurring (Mean Filter) untuk reduksi noise.
+   - Sharpening untuk memperjelas tepi objek.
 
-### Cara Menjalankan:
-1. Instal library yang dibutuhkan:
-   ```bash
-   pip install streamlit opencv-python numpy Pillow
+## 🛠️ Instalasi & Cara Menjalankan
+Pastikan Anda memiliki Python terinstal, kemudian jalankan perintah berikut:
+
+```bash
+# Instalasi library
+pip install streamlit opencv-python numpy Pillow
+
+# Menjalankan aplikasi
+python -m streamlit run app.py
