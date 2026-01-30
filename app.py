@@ -5,7 +5,7 @@ from PIL import Image
 
 st.title("ImagoProcess: Point Operations & Filters")
 st.sidebar.title("Informasi Mahasiswa")
-st.sidebar.info("Oleh: Intan Amanda (Individu)")
+st.sidebar.info("Oleh: Intan Amanda")
 
 uploaded_file = st.file_uploader("Upload Foto", type=['jpg', 'png', 'jpeg'])
 
